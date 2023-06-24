@@ -59,7 +59,11 @@ class DiscordInstagramPoster:
             "attachments": []
         }
 
-        response = requests.post(self._webhook_url, json=data)
+        try:
+            response = requests.post(self._webhook_url, json=data)
+        except requests.exceptions.MissingSchema:
+            print("Invalid webhook URL.")
+            return
 
         if response.status_code == 204:
             print("Message sent successfully.")
