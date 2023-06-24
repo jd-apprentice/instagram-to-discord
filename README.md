@@ -34,6 +34,12 @@ For that we have a script called `fetch_posts.sh` localed in `utils/` folder. Yo
 sh utils/fetch_posts.sh <username>
 ```
 
+Or if you use Windows:
+
+```ps1
+script.bat <username>
+```
+
 This will create a folder with the name of the user and inside it will be the photos and videos that the user has uploaded.
 
 ```py
