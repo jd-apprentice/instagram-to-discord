@@ -55,5 +55,5 @@ discord_instagram_poster = DiscordInstagramPoster({
     "footer_icon": footer_url,
     "title": title
 })
-discord_instagram_poster.get_latest_photo(folder_path)
+discord_instagram_poster.get_latest_json(folder_path)
 ```

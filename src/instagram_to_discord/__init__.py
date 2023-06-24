@@ -70,19 +70,18 @@ class DiscordInstagramPoster:
         else:
             print("Message could not be sent.")
 
-    def get_latest_photo(self, directory: str) -> None:
+    def get_latest_json(self, directory: str) -> None:
         """
-        directory -- The directory where the photos are stored.
+        directory -- The directory where the files are stored.
         
-        Get the latest photo from a directory and send it to Discord.
+        Get the latest JSON file with .json.xz extension from a directory.
         """
 
         files = os.listdir(directory)
-        photo_files = [file for file in files if file.endswith(".jpg")]
-        latest_photo = max(photo_files)
+        json_files = [file for file in files if file.endswith(".json.xz")]
+        latest_json = max(json_files)
 
-        json_file = latest_photo.replace(".jpg", ".json.xz")
-        json_path = os.path.join(directory, json_file)
+        json_path = os.path.join(directory, latest_json)
 
         with lzma.open(json_path, "rt") as file:
             json_content = file.read()
