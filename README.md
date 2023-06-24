@@ -1,5 +1,7 @@
 # Instagram to Discord 💙
 
+![IMAGE](https://i.ytimg.com/vi/bawUOnhbdLw/maxresdefault.jpg)
+
 ## Description 📝
 
 This is a simple abstraction layer for the Instagram API, which allows you to get the latest posts from a user and send them to a Discord channel.
