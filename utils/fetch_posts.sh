@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Enter your username: "
-read username
+username=$1
 
 if [ -z "$username" ]
 then
@@ -11,8 +10,8 @@ fi
 
 if [ ! -d "./$username" ]
 then
-      instaloader $username
+      instaloader "$username"
       exit 1
 fi
 
-instaloader $username --fast-update
+instaloader "$username" --fast-update
