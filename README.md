@@ -6,6 +6,10 @@
 
 This is a simple abstraction layer for the Instagram API, which allows you to get the latest posts from a user and send them to a Discord channel.
 
+## How it works? ⁉
+
+![image](https://github.com/jd-apprentice/instagram-to-discord/assets/68082746/368fe303-f714-4572-86c5-064f08daeb19)
+
 ## Installation 📦
 
 ```bash
