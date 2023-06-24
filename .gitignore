@@ -2,3 +2,5 @@
 __pycache__
 example.py
 jd.apprentice
+dist
+*.egg-info
