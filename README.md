@@ -2,6 +2,13 @@
 
 ![IMAGE](https://i.ytimg.com/vi/bawUOnhbdLw/maxresdefault.jpg)
 
+
+<a href="https://pypi.org/project/instagram-to-discord/"><img src="https://img.shields.io/badge/pip-install-blue"></a>
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/instagram-to-discord.svg?logo=python&logoColor=FFE873)](https://pypi.org/project/instagram-to-discord/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/instagram-to-discord.svg)](https://pypistats.org/packages/instagram-to-discord)
+[![PyPI version](https://img.shields.io/pypi/v/instagram-to-discord.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/instagram-to-discord/)
+[![Licence](https://img.shields.io/github/license/jd-apprentice/pypistats.svg)](LICENSE)
+
 ## Description 📝
 
 This is a simple abstraction layer for the Instagram API, which allows you to get the latest posts from a user and send them to a Discord channel.
